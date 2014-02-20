@@ -1,0 +1,29 @@
+.brand {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+}
+
+#brand-text {
+    font-size: 30px;
+    line-height: 135%;
+}
+
+#brand-tag {
+    color: #31428E;
+    margin-bottom: 5px;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 18px;
+	color: #666;
+}
+
+p {
+	margin: 20px 0px;
+	line-height: 135%;
+}
