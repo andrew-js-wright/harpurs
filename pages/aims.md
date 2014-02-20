@@ -3,6 +3,8 @@ title: 'Aims'
 date: '2014-02-15'
 layout: 'default'
 ---
+#Our Aims and Objectives
+
 **“Nurturing children......Strengthening families......Growing community”**
 
 ##Vision
