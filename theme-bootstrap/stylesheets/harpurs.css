@@ -22,6 +22,10 @@ h2 {
     width: inherit;
 }
 
+#page-header {
+    margin: 10px 0px;
+}
+
 .brand {
     margin-top: 10px;
     display: inline-block;  
@@ -95,7 +99,7 @@ h2 {
 
 #sun {
     width: 180px;
-    margin-top: -25px;
+    margin-bottom: -20px;   
     width: 155px;
     margin-top: -17px;
     margin-left: 17px;
