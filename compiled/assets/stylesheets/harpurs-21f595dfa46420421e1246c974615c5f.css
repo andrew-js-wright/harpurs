@@ -1,0 +1,115 @@
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    color: #666;
+}
+
+p {
+    margin: 20px 0px;
+    line-height: 135%;
+}
+
+h1 {
+    color: rgb(252,24,37);  
+}
+
+h2 {
+   color: #ffa34c; 
+}
+
+.navbar .container {
+    width: inherit;
+}
+
+#page-header {
+    margin: 10px 0px;
+}
+
+.brand {
+    margin-top: 10px;
+    display: inline-block;  
+    padding: 5px;
+    line-height: 130%;
+}
+
+.brand:hover {
+    text-decoration: none;
+}
+
+#brand-text {
+    font-size: 30px;
+}
+
+#brand-tag {
+    color: #ffa34c;
+    margin-bottom: 5px;
+}
+
+#telephone-number {
+    float: right;
+    font-size: 30px;
+    line-height: 120%;
+    margin-top: 20px;
+    margin-right: 20px; 
+    color: rgb(145,202,86); 
+    font-weight: 1400;
+}
+
+.navbar-inner {
+    min-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(30,176,236);
+    background-image: none;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.navbar {
+    margin: 0px 0px 40px 0px;
+}
+
+.navbar .nav>.active>a, 
+.navbar .nav>.active>a:hover, 
+.navbar .nav>.active>a:focus {
+    box-shadow: none;
+    color: white;
+    background-color: #0088cc;
+    text-shadow: none;
+}
+
+.navbar .nav>li>a {
+    text-shadow: none;
+    color: white;
+    box-shadow: none;
+}
+
+.navbar .nav>li>a:hover {
+    text-shadow: none;
+    box-shadow: none;
+    text-shadow: 0px 0px 5px #ffffff;
+    color: white;
+}
+
+#sun {
+    width: 180px;
+    margin-bottom: -20px;   
+    width: 155px;
+    margin-top: -17px;
+    margin-left: 17px;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+.body-buffer {
+    margin-top: 65px;
+}
