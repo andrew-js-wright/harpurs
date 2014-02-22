@@ -1,3 +1,5 @@
+require 'tmpdir'
+ 
 # Usage: 
 # add to ruhoh-site/plugins/publish/github.rb
 # - Your GitHub remote must be setup properly but The command will try to walk you through it.
@@ -43,7 +45,9 @@ class Ruhoh
  
     def compile
       ruhoh = Ruhoh.new
+      #ruhoh.setup
       ruhoh.env = 'production'
+      #ruhoh.setup_paths
       ruhoh.setup_plugins
  
       config_overrides = set_configuration(ruhoh.config)
