@@ -1,2 +1,5 @@
 "theme-bootstrap":
   "use" : "theme"
+
+"pages" :
+  "permalink" : "/:relative_path/:filename"

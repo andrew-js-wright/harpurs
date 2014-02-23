@@ -9,8 +9,8 @@ author :
   feedburner : feedname
 
 navigation :
-  - archive
-  - tags
-  - categories
-  - pages
-  - about
+  - introduction.md
+  - childcare.md
+  - families.md
+  - groups.md
+  - aims.md
