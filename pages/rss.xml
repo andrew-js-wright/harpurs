@@ -4,10 +4,10 @@
     <title>Harpurs Hill</title>
     <description>Harpurs Hill</description>
     <link/>
-    <pubDate>2014-02-22</pubDate>
+    <pubDate>2014-02-23</pubDate>
     <item>
       <title>Aims</title>
-      <link>/harpurs/pages/aims</link>
+      <link>/harpurs/aims</link>
       <pubDate>2014-02-15</pubDate>
       <description>&lt;h1 id="toc_0"&gt;Our Aims and Objectives&lt;/h1&gt;
 
@@ -48,21 +48,33 @@
     </item>
     <item>
       <title>Childcare</title>
-      <link>/harpurs/pages/childcare</link>
+      <link>/harpurs/childcare</link>
       <pubDate>2014-02-15</pubDate>
       <description>&lt;h1 id="toc_0"&gt;Childcare Services&lt;/h1&gt;
 
 &lt;p&gt;It is the aim of the childcare services within Harpurs Hill Children and Family Centre to provide a quality service where you and your child will feel welcomed and valued within safe and secure environment.  We provide a variety of activities for various ages and stages of development, where children can develop and grow under to guidance of a professional, caring and fully qualified staff team.  &lt;/p&gt;
 
-&lt;h2 id="toc_1"&gt;Sunshine Creche&lt;/h2&gt;
+&lt;h2 id="toc_1"&gt;Sunshine Creche&lt;a name=early-years&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;Our creche is a great stepping stone for children progressing onto other types of childcare services.  The creche gives the children the opportunity to play and interact with other children their own age and helps build confidence and socialising skills.  &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Sessions &#x2013; Mondays and Tuesdays             Sessions &#x2013; Wednesdays and Thursdays&lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;Times      &#x2013; 1pm to 3pm               Times      &#x2013; 1pm to 3pm &lt;/p&gt;
-
-&lt;p&gt;Age          &#x2013; birth to 1 year                Age          &#x2013; 1 to 2 years &lt;/p&gt;
+&lt;table id="creche-sessions"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Sessions&lt;/th&gt;
+        &lt;td&gt;Monday &amp;amp; Tuesday&lt;/td&gt;
+        &lt;td&gt;Wednesday &amp;amp; Thursday&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Times&lt;/th&gt;
+        &lt;td&gt;1pm to 3pm&lt;/td&gt;
+        &lt;td&gt;1pm to 3pm&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+        &lt;td&gt;Birth to 1 year&lt;/td&gt;
+        &lt;td&gt;1 to 2 years&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
 
 &lt;h2 id="toc_2"&gt;Little Rays &#x2013; Sure Start Two to Three Year Old Development Programme&lt;/h2&gt;
 
@@ -74,18 +86,27 @@
 
 &lt;p&gt;By the time the children start Sunshine Playgroup, we recognise that they have already had a variety of experiences and have developed in a number of ways.  We will endeavour to build upon the learning that has taken place in the home and their immediate environment as well as previous play experiences.  Therefore the staff team will provide children with a rich variety of challenging play activities and other experiences in a stimulating environment.  The focus will be to allow children to learn at their own pace, gain a positive image of themselves as learners, be able to cope with uncertainty and to learn through trial and error.  The staff team use the &#x2018;Preschool Curricular Guidance&#x2019; document as laid down by the Department of Education to influence their planning.  &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Sessions &#x2013; Monday to Friday&lt;/strong&gt;               &lt;/p&gt;
+&lt;table id="playgroup-sessions"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Sessions&lt;/th&gt;
+        &lt;td&gt;Monday to Friday&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Times&lt;/th&gt;
+        &lt;td&gt;9.15am to 11.45am&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+        &lt;td&gt;3+ years&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
 
-&lt;p&gt;Times &#x2013; 9.15am to 11.45am &lt;/p&gt;
-
-&lt;p&gt;Admission age &#x2013; 3+ &lt;/p&gt;
-
-&lt;p&gt;We operate a waiting list for our creche and playgroup services.  For full information on our criteria or session fees please contact Karen Pollock.  &lt;/p&gt;
+&lt;p&gt;We operate a waiting list for our creche and playgroup services.  For full information on our criteria or session fees please contact Karen Pollock on 028 7034 3259  &lt;/p&gt;
 </description>
     </item>
     <item>
       <title>Families</title>
-      <link>/harpurs/pages/famlies</link>
+      <link>/harpurs/families</link>
       <pubDate>2014-02-15</pubDate>
       <description>&lt;h1 id="toc_0"&gt;Family Services&lt;/h1&gt;
 
@@ -105,7 +126,7 @@
     </item>
     <item>
       <title>Groups</title>
-      <link>/harpurs/pages/groups</link>
+      <link>/harpurs/groups</link>
       <pubDate>2014-02-15</pubDate>
       <description>&lt;h1 id="toc_0"&gt;Group Support&lt;/h1&gt;
 
@@ -135,14 +156,8 @@
 </description>
     </item>
     <item>
-      <title>Home</title>
-      <link>/harpurs/pages/home</link>
-      <pubDate>2014-02-08</pubDate>
-      <description>This is the home page for the Harpers Hill Children and Family Centre website</description>
-    </item>
-    <item>
       <title>Introduction</title>
-      <link>/harpurs/pages/introduction</link>
+      <link>/harpurs/introduction</link>
       <pubDate>2014-02-15</pubDate>
       <description>&lt;h1 id="toc_0"&gt;Introduction&lt;/h1&gt;
 
@@ -150,7 +165,7 @@
 It takes a holistic approach combining community development with delivering 
 people-centred, family support services.  &lt;/p&gt;
 
-&lt;p&gt;The Project runs an Early Years programme, a home visiting service and a range of personal development programmes and activities for adults.  It also encourages parents to become involved in running the Project.  The Project also shares the building with the Cuilrath Corner Nursery School which is run by the Education Service.  &lt;/p&gt;
+&lt;p&gt;The Project runs an &lt;a href="/harpurs/childcare"&gt;Early Years programme&lt;/a&gt;, a &lt;a href="/harpurs/families"&gt;home visiting service&lt;/a&gt; and a range of personal development programmes and &lt;a href="/harpurs/groups"&gt;activities for adults&lt;/a&gt;.  It also encourages parents to become involved in running the Project.  The Project also shares the building with the Cuilrath Corner Nursery School which is run by the Education Service.  &lt;/p&gt;
 
 &lt;p&gt;Since 1999 the Project has become one of the main players in the delivery of Children&amp;#39;s Services in the Coleraine Area and in 2003 it became the lead body of the Coleraine Sure Start Partnership.  &lt;/p&gt;
 
