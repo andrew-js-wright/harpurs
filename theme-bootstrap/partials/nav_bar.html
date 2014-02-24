@@ -1,21 +1,21 @@
 <div id="page-header">
-	<div class="container-narrow">
-		<a class="brand" href="{{urls.base_path}}pages/home">
-		    <img src="{{urls.media}}/sun.png">
-		    <div id="brand-text" class="rainbow">{{ data.title }}</div>
-		    <div id="brand-tag">{{ data.tagline }}</div>
-	  	</a>
-	</div>
+  <div class="container-narrow">
+    <a class="brand" href="{{urls.base_path}}">
+      <img src="{{urls.media}}/sun.png">
+      <div id="brand-text" class="rainbow">{{ data.title }}</div>
+      <div id="brand-tag">{{ data.tagline }}</div>
+    </a>
+  </div>
 </div>
 
-	<div class="navbar">
-      <div class="navbar-inner">
-        <div class="container-narrow">
-		  <ul class="nav">
-		    {{# pages.all }}
-		      {{> pages_list }}
-		    {{/ pages.all }}
-         </ul>
-        </div>
-      </div>
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container-narrow">
+      <ul class="nav">
+	{{# data.navigation?to_pages }}
+	  {{> pages_list }}
+	{{/ data.navigation?to_pages }}
+      </ul>
     </div>
+  </div>
+</div>

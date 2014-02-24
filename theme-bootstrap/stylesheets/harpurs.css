@@ -30,10 +30,12 @@ h3 {
 }
 
 .brand {
-    margin-top: 10px;
-    display: inline-block;  
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    width: 300px; 
     padding: 5px;
-    line-height: 130%;
+    text-align: center;
 }
 
 .brand:hover {
@@ -42,21 +44,12 @@ h3 {
 
 #brand-text {
     font-size: 30px;
+    line-height: 125%;
 }
 
 #brand-tag {
-    color: #ffa34c;
+    color: #31428E;
     margin-bottom: 5px;
-}
-
-#telephone-number {
-    float: right;
-    font-size: 30px;
-    line-height: 120%;
-    margin-top: 20px;
-    margin-right: 20px; 
-    color: rgb(145,202,86); 
-    font-weight: 1400;
 }
 
 .navbar-inner {
