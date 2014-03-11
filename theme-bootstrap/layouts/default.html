@@ -20,6 +20,7 @@
       style.css
       google_prettify/sons-of-obsidian.css
       harpurs.css
+      footer.css
     {{/ stylesheets.load }}
 
     {{# javascripts.load }}
@@ -52,13 +53,9 @@
         {{{ content }}}
       </div>
 
-      <hr>
-      <div class="footer">
-        <p>&copy; {{ data.author.name }} 2014
-        </p>
-      </div>
-
     </div> <!-- /container -->
+
+    {{> footer }}
 
     {{{ widgets.google_prettify }}}
     {{{ widgets.analytics }}}

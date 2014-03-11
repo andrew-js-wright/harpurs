@@ -13,4 +13,3 @@ We work in partnership with local statutory services as well as other community 
 We work in partnership with Coleraine Sure Start Partnership and deliver both our family support services and the Two to Three Year Old Development programme.  
 
 ![Home page images]({{urls.media}}/home-kids.png)
-<p style="text-align:center">**“Nurturing Children......Strengthening Families......Growing Community”**</p>

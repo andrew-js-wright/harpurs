@@ -9,8 +9,9 @@ author :
   feedburner : feedname
 
 navigation :
-  - introduction.md
+  - about.md
+  - aims.md
   - childcare.md
   - families.md
   - groups.md
-  - aims.md
+

@@ -1,9 +1,9 @@
 ---
-title: 'Introduction'
+title: 'About us'
 date: '2014-02-15'
 layout: 'default'
 ---
-#Introduction
+#About us
 
 The Project was established in 1993 to address low levels of preparedness for school.
 It takes a holistic approach combining community development with delivering 

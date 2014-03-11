@@ -8,14 +8,12 @@
   </div>
 </div>
 
-<div class="navbar">
-  <div class="navbar-inner">
+<nav class="navbar" role="navigation">
     <div class="container-narrow">
-      <ul class="nav">
+      <ul class="nav navbar-nav">
 	{{# data.navigation?to_pages }}
 	  {{> pages_list }}
 	{{/ data.navigation?to_pages }}
       </ul>
     </div>
-  </div>
-</div>
+</nav>
