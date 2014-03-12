@@ -1,6 +1,7 @@
 .footer {
-	background-color: rgb(202,201,60);
+	background-color: rgb(216,224,106);
 	color: white;
+	margin-top: 300px;
 	}
 
 .footer>.stuff {
@@ -36,4 +37,9 @@
 .footer .legal-status {
 	margin-top: 10px;	
 	text-align: center;
+}
+
+.footer-image {
+	 margin-top: -350px;
+	 margin-bottom: -50px;
 }

@@ -86,10 +86,11 @@ h3 {
     text-shadow: none;
 }
 
-.navbar .nav>li>a {
+.navbar-nav>li>a {
     text-shadow: none;
     color: white;
     box-shadow: none;
+    padding: 10px 15px 10px;
 }
 
 .navbar-nav>li>a:hover {
