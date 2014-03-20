@@ -7,27 +7,11 @@ layout: 'default'
 
 It is the aim of the childcare services within Harpurs Hill Children and Family Centre to provide a quality service where you and your child will feel welcomed and valued within safe and secure environment.  We provide a variety of activities for various ages and stages of development, where children can develop and grow under to guidance of a professional, caring and fully qualified staff team.  
 
-##Sunshine Creche<a name=early-years></a>
+<a name=early-years></a>
+##Birth - 1 year
+###[Sunshine Creche]({{urls.base_url}}activities/creche) - Monday 1pm to 3pm
 
-Our creche is a great stepping stone for children progressing onto other types of childcare services.  The creche gives the children the opportunity to play and interact with other children their own age and helps build confidence and socialising skills.  
-
-<table id="creche-sessions">
-	<tr>
-		<th>Sessions</th>
-		<td>Monday &amp; Tuesday</td>
-		<td>Wednesday &amp; Thursday</td>
-	</tr>
-	<tr>
-		<th>Times</th>
-		<td>1pm to 3pm</td>
-		<td>1pm to 3pm</td>
-	</tr>
-	<tr>
-		<th>Age</th>
-		<td>Birth to 1 year</td>
-		<td>1 to 2 years</td>
-	</tr>
-</table>
+To find out more: [Contact Karen]({{urls.base_url}}contact#karen) or [click here]({{urls.base_url}}activities/creche)
 
 ##Little Rays – Sure Start Two to Three Year Old Development Programme 
 
