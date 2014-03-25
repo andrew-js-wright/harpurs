@@ -22,6 +22,7 @@
       harpurs.css
       footer.css
       boxrox.css
+      childcare.css
     {{/ stylesheets.load }}
 
     {{# javascripts.load }}
@@ -50,7 +51,7 @@
 
     <div class="container-narrow">
 
-      <div class="content">
+      <div class="content {{ page.id }}">
         {{{ content }}}
       </div>
 
@@ -60,6 +61,6 @@
 
     {{{ widgets.google_prettify }}}
     {{{ widgets.analytics }}}
-    
+
   </body>
 </html>

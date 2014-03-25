@@ -3,7 +3,6 @@ title: 'Aims'
 date: '2014-02-15'
 layout: 'default'
 ---
-#Our Aims and Objectives
 <div class="box-rox cloud">
 <div class="row">
 <div class="col-md-12">
