@@ -23,15 +23,22 @@
       footer.css
       boxrox.css
       childcare.css
+      contact.css
     {{/ stylesheets.load }}
-
+    
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNdmm1DHKmt7m_aHZ9ylBJzoCDtJznjjM&sensor=false">
+    </script>
+    
     {{# javascripts.load }}
       jquery.min.js
       harpurs/dom-interactions.js
       harpurs/rainbow-text.js
       harpurs/sticky-nav.js
+      harpurs/init-map.js
     {{/ javascripts.load }}
 
+     
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 
     <link rel="shortcut icon" href="{{urls.media}}/favicon.ico">
