@@ -1,5 +1,9 @@
 #map-canvas {
-  height: 400px;
-  width: 300px;
-  float: left;
+  height: 190px;
+  width: 100%;
+  float: right;
+}
+
+.contact\.md .col-sm-5 {
+  padding-right: 0px;
 }
