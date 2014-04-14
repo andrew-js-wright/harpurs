@@ -2,7 +2,7 @@
 title: 'Contact Us'
 date: '2014-04-03'
 description: 'Contact Harpurs Hill'
-layout: 'default'
+layout: 'contact'
 ---
 #Contact Us
 ##Harpurs Hill Children & Family Centre Ltd
