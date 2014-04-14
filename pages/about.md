@@ -14,3 +14,16 @@ The Project runs an [Early Years programme]({{urls.base_path}}childcare), a [hom
 Since 1999 the Project has become one of the main players in the delivery of Children's Services in the Coleraine Area and in 2003 it became the lead body of the Coleraine Sure Start Partnership.  
 
 The Project is managed by a Board representing a range of stakeholders and is a company limited by guarantee.  
+
+<div class="undertext">
+<p>
+Harpurs Hill Children and Family Centre Ltd is a non-profit making, charitable organisation reliant on funding to deliver its services to the community.
+</p>
+
+<b>Supported by</b>
+</div>
+
+- SureStart Coleraine
+- Northern Health & Social Care Trust
+- Department of Education & Early Years Organisation
+- Northern Childcare Partnership
