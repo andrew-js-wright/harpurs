@@ -17,9 +17,16 @@ layout: 'default'
 </div>
 </div>
 <div class="box-rox path">
-##Mission
-
+<div class="row">
+<div class="col-md-12">
+<h2>Misson</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 text">
 “We endeavour to support, strengthen and nurture children and families to achieve their full potential”  
+</div>
+</div>
 </div>
 ##Objectives
 

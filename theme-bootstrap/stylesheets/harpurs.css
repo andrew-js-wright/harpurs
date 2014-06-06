@@ -6,7 +6,7 @@ body {
 
 p {
     margin: 30px 0px;
-    line-height: 135%;
+    line-height: 150%;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h2 {
 }
 
 h3 {
-   color: rgb(30,176,236)
+   color: rgb(30,176,236);
     margin: 30px 0px;
 }
 
