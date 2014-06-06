@@ -7,7 +7,7 @@ layout: 'default'
 <span id="childcare">
 It is the aim of the childcare services within Harpurs Hill Children and Family Centre to provide a quality service where you and your child will feel welcomed and valued within safe and secure environment.  We provide a variety of activities for various ages and stages of development, where children can develop and grow under to guidance of a professional, caring and fully qualified staff team.  
 
-- <h2>Birth - 1 year olds</h2>
+- <h2>Birth to 1 year olds</h2>
     - <h3>[Sunshine Creche]({{urls.base_url}}activities/creche) - Monday &amp; Tuesday 1pm to 3pm</h3>
         - To find out more: [contact Karen]({{urls.base_url}}contact#karen) or [click here]({{urls.base_url}}activities/creche)
 
