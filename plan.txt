@@ -1,3 +1,0 @@
-[] Find to_pages method to use it as a template
-[] Create thon method to get list of pages from nested yaml list
-[] Create partial to parse nested page list
