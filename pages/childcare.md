@@ -28,5 +28,5 @@ It is the aim of the childcare services within Harpurs Hill Children and Family 
     Monday to Friday  
     9:15am to 11:45am
 
-We operate a waiting list for our creche and playgroup services.  For full information on our criteria or session fees please contact Karen Pollock on 028 7034 3259  
+We operate a waiting list for our creche and playgroup services.  For full information on our criteria or session fees please contact Karen Pollock on 028 7032 1620 
 </span>

@@ -27,6 +27,6 @@ The Women’s Group at Harpurs Hill Community Centre runs every Wednesday, durin
 
 Got some time on your hands?  Come along and join us... meet other mums, have a chat over a cuppa, try new activities and workshops.  What about my kids?  We offer a creche service for children aged 0 – 4 years.  
 
-For more information contact Karen or Shirley on 028 703 43259.  
+For more information contact Karen or Shirley on 028 7032 1620.  
 
 **NB:** Creche places are limited and in high demand, therefore contact Karen or Shirley to ensure a place is available.  
