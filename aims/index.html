@@ -15,19 +15,20 @@
 <link href='/harpurs/assets/stylesheets/bootstrap.min-8a7442ca6bedd62cec4881040b9a9e83.css' type='text/css' rel='stylesheet' media='all'>
 <link href='/harpurs/assets/stylesheets/style-e81fa375b231bedf6cb2dbc6653570cc.css' type='text/css' rel='stylesheet' media='all'>
 <link href='/harpurs/assets/stylesheets/google_prettify/sons-of-obsidian-afb0925bfa2d994f17dab93e13fbf999.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/harpurs/assets/stylesheets/harpurs-d961e01fa2ac8a0735bba1f05c987368.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/harpurs/assets/stylesheets/footer-f455eaeabd405a28ca26790f406dcf37.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/harpurs/assets/stylesheets/boxrox-fe7820d904d5f8f1f9f56172119b3a3b.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/harpurs/assets/stylesheets/childcare-69335cfbaf0309865d4e41a9ebdd5402.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/harpurs/assets/stylesheets/contact-dac54748836b4c975ef16ebf46e1109b.css' type='text/css' rel='stylesheet' media='all'>    
+<link href='/harpurs/assets/stylesheets/harpurs-3d633a5a07ff747011140489052bf08c.css' type='text/css' rel='stylesheet' media='all'>
+<link href='/harpurs/assets/stylesheets/footer-c4a6d43ad7d42521e533b58c44f0f3d0.css' type='text/css' rel='stylesheet' media='all'>
+<link href='/harpurs/assets/stylesheets/boxrox-59c1cbacf230051c3848c10b1b5fc0ef.css' type='text/css' rel='stylesheet' media='all'>
+<link href='/harpurs/assets/stylesheets/childcare-a2e2a7ae2f0daf505cc749c8edfab20d.css' type='text/css' rel='stylesheet' media='all'>
+<link href='/harpurs/assets/stylesheets/contact-5dcf6719dff2cd15ae08bc0aed29a5b3.css' type='text/css' rel='stylesheet' media='all'>    
 <script src='/harpurs/assets/javascripts/jquery.min-8fc25e27d42774aeae6edbc0a18b72aa.js'></script>
+<script src='/harpurs/assets/javascripts/bootstrap.min-ba847811448ef90d98d272aeccef2a95.js'></script>
 <script src='/harpurs/assets/javascripts/harpurs/dom-interactions-10a211b057ea099009665e3b1942776f.js'></script>
 <script src='/harpurs/assets/javascripts/harpurs/rainbow-text-8425ff592670e19c28b8eabbf7c1057f.js'></script>
-<script src='/harpurs/assets/javascripts/harpurs/sticky-nav-82cfcceff077a01dba3e877103dec42a.js'></script>    
+<script src='/harpurs/assets/javascripts/harpurs/sticky-nav-82cfcceff077a01dba3e877103dec42a.js'></script>
+<script src='/harpurs/assets/javascripts/harpurs/activate-parent-24c4aedb3a54978a7f583789d7134792.js'></script>    
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-    </link>
-    <link rel="shortcut icon" href="/harpurs/assets/media/favicon.ico">
-    </link>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="/harpurs/assets/media/favicon.ico"700>
     
     <!-- Le fav and touch icons -->
     <!-- Update these with your own images
@@ -39,46 +40,71 @@
     
   </head>
   <body>
-      <div id="page-header">
-        <div class="container-narrow">
-          <a class="brand" href="/harpurs/">
-            <img src="/harpurs/assets/media/sun.png">
-            <div id="brand-text" class="rainbow">Harpurs Hill</div>
-            <div id="brand-tag">Children &amp; Family Centre Ltd</div>
-          </a>
-        </div>
-      </div>
-      
-      <nav class="navbar" role="navigation">
-          <div class="container-narrow">
-            <ul class="nav navbar-nav">
-      	  
-      	    <li><a href="/harpurs/about">About us</a></li>
-      	  
-      	    <li class="active"><a href="/harpurs/aims" class="active">Aims</a></li>
-      	  
-      	  
-      	  
-      	    <li><a href="/harpurs/childcare">Childcare</a></li>
-      	  
-      	  
-      	    <li><a href="/harpurs/families">Families</a></li>
-      	  
-      	  
-      	    <li><a href="/harpurs/groups">Groups</a></li>
-      	  
-      	  
-      	    <li><a href="/harpurs/contact">Contact us</a></li>
-      	  
-            </ul>
-          </div>
-      </nav>
-      
-    
+    <div id="page-header">
       <div class="container-narrow">
+        <a class="brand" href="/harpurs/">
+          <img src="/harpurs/assets/media/sun.png">
+          <div id="brand-text" class="rainbow">Harpurs Hill</div>
+          <div id="brand-tag">Children &amp; Family Centre Ltd</div>
+        </a>
+      </div>
+    </div>
     
-       <div class="content aims.md">
-        <div class="box-rox cloud">
+    <nav class="navbar" role="navigation">
+        <div class="container-narrow">
+          <ul class="nav navbar-nav">
+    	  
+    	    <li><a href="/harpurs/about">About us</a></li>
+    	  
+    	    <li class="active"><a href="/harpurs/aims" class="active">Aims</a></li>
+    	  
+    	  
+          <li class="dropdown">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown">Childcare <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                  
+                    <li><a href="/harpurs/childcare">Overview</a></li>
+                  
+                  
+                    <li><a href="/harpurs/childcare/creche">Sunshine Creche</a></li>
+                  
+                  
+                    <li><a href="/harpurs/childcare/little-rays">Little Rays</a></li>
+                  
+                  
+                    <li><a href="/harpurs/childcare/playgroup">Sunshine Playgroup</a></li>
+                  
+            </ul>
+          </li>
+          <li class="dropdown">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown">Families <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                  
+                    <li><a href="/harpurs/families">Overview</a></li>
+                  
+                  
+                    <li><a href="/harpurs/families/one-to-ones">One to one</a></li>
+                  
+                  
+                    <li><a href="/harpurs/families/programmes">Programmes</a></li>
+                  
+            </ul>
+          </li>
+    	  
+    	    <li><a href="/harpurs/groups">Groups</a></li>
+    	  
+    	  
+    	    <li><a href="/harpurs/contact">Contact us</a></li>
+    	  
+       </ul>
+        </div>
+    </nav>
+    
+    
+    <div class="container-narrow">
+    
+    	<div class="content aims.md">
+    		<div class="box-rox cloud">
 <div class="row">
 <div class="col-md-12">
 <h2>Vision</h2>
@@ -92,14 +118,20 @@
 </div>
 </div>
 </div>
-<div class="box-rox path"></p>
-
-<h2 id="toc_0">Mission</h2>
-
-<p>“We endeavour to support, strengthen and nurture children and families to achieve their full potential”<br>
+<div class="box-rox path">
+<div class="row">
+<div class="col-md-12">
+<h2>Misson</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 text">
+“We endeavour to support, strengthen and nurture children and families to achieve their full potential”<br>
+</div>
+</div>
 </div></p>
 
-<h2 id="toc_1">Objectives</h2>
+<h2 id="toc_0">Objectives</h2>
 
 <ul>
 <li>To nurture young children from birth through the provision of high quality care and learning environments and to ensure they reach their full potential.<br></li>
@@ -111,7 +143,7 @@
 <li>To work in partnership with all relevant children and family support agencies.</li>
 </ul>
 
-<h2 id="toc_2">Value base</h2>
+<h2 id="toc_1">Value base</h2>
 
 <ul>
 <li>Respect</li>
@@ -123,57 +155,57 @@
 <li>Fun</li>
 </ul>
 
-       </div>
+    	</div>
     
-      </div> <!-- /container -->
+    </div> <!-- /container -->
     
-      <div class="footer">
-        <div class="container-narrow stuff">
-        <div class="footer-image">
-          <img src="/harpurs/assets/media/home-kids.png"></img>
+    <div class="footer">
+      <div class="container-narrow stuff">
+      <div class="footer-image">
+        <img src="/harpurs/assets/media/home-kids.png"></img>
+      </div>
+        <div class="row">
+          <div class="col-md-12 strapline">
+    	Nurturing Children......Strengthening Families......Growing Community
+          </div>
         </div>
-          <div class="row">
-            <div class="col-md-12 strapline">
-      	Nurturing Children......Strengthening Families......Growing Community
-            </div>
+        <div class="row">
+          <div class="col-xs-7">
+    	<div class="contact">
+    	  <div class="address">
+    	    Cultrath Corner<br>
+    	    Cuilrath Street<br>
+    	    Coleraine<br>
+    	    BT52 2ER
+    	  </div>
+    
+    	  <div class="email">
+    	    info@harpurshillcfc.co.uk
+    	  </div>
+    
+    	  <div class="telephone">
+    	    028 7032 1620
+    	  </div>
+    	</div>
           </div>
-          <div class="row">
-            <div class="col-md-7">
-      	<div class="contact">
-      	  <div class="address">
-      	    Cultrath Corner<br>
-      	    Cuilrath Street<br>
-      	    Coleraine<br>
-      	    BT52 2ER
-      	  </div>
-      
-      	  <div class="email">
-      	    info@harpurshillcfc.co.uk
-      	  </div>
-      
-      	  <div class="telephone">
-      	    028 7032 1620
-      	  </div>
-      	</div>
-            </div>
-            <div class="col-md-offset-1 col-md-4">
-      	<div class="surestart">
-      	  In association with:
-      	  <img src="/harpurs/assets/media/surestart.png">
-      	</div>
-            </div>
+          <div class="col-xs-offset-1 col-xs-4">
+    	<div class="surestart">
+    	  In association with:
+    	  <img src="/harpurs/assets/media/surestart.png">
+    	</div>
           </div>
-          <div class="row">
-            <div class="legal-status col-md-12">
-      	A charity registered with the Inland Revenue. Registration No:
-      	XR2217 Registration Number: N.I. 38516 
-            </div>
+        </div>
+        <div class="row">
+          <div class="legal-status col-md-12">
+    	A charity registered with the Inland Revenue. Registration No:
+    	XR2217 Registration Number: N.I. 38516 
           </div>
         </div>
       </div>
-      
+    </div>
     
-      <!-- Google Prettify -->
+    
+    <!-- Google Prettify -->
 <script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
 <script>
   var pres = document.getElementsByTagName("pre");
@@ -183,7 +215,7 @@
   prettyPrint();
 </script>
 <!-- end Google Prettify -->
-      
+    
     
   </body>
 </html>

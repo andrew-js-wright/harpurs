@@ -1,0 +1,16 @@
+.childcare\.md ul {
+    list-style: none;
+}
+
+.childcare\.md > ul {
+    padding-left: 0px;
+}
+
+.childcare\.md a {
+    font-size: 30px;
+    text-decoration: underline:
+}
+
+.childcare\.md h2 {
+    font-size: 40px;
+}

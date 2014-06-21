@@ -15,19 +15,20 @@
 <link href='/harpurs/assets/stylesheets/bootstrap.min-8a7442ca6bedd62cec4881040b9a9e83.css' type='text/css' rel='stylesheet' media='all'>
 <link href='/harpurs/assets/stylesheets/style-e81fa375b231bedf6cb2dbc6653570cc.css' type='text/css' rel='stylesheet' media='all'>
 <link href='/harpurs/assets/stylesheets/google_prettify/sons-of-obsidian-afb0925bfa2d994f17dab93e13fbf999.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/harpurs/assets/stylesheets/harpurs-d961e01fa2ac8a0735bba1f05c987368.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/harpurs/assets/stylesheets/footer-f455eaeabd405a28ca26790f406dcf37.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/harpurs/assets/stylesheets/boxrox-fe7820d904d5f8f1f9f56172119b3a3b.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/harpurs/assets/stylesheets/childcare-69335cfbaf0309865d4e41a9ebdd5402.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/harpurs/assets/stylesheets/contact-dac54748836b4c975ef16ebf46e1109b.css' type='text/css' rel='stylesheet' media='all'>    
+<link href='/harpurs/assets/stylesheets/harpurs-3d633a5a07ff747011140489052bf08c.css' type='text/css' rel='stylesheet' media='all'>
+<link href='/harpurs/assets/stylesheets/footer-c4a6d43ad7d42521e533b58c44f0f3d0.css' type='text/css' rel='stylesheet' media='all'>
+<link href='/harpurs/assets/stylesheets/boxrox-59c1cbacf230051c3848c10b1b5fc0ef.css' type='text/css' rel='stylesheet' media='all'>
+<link href='/harpurs/assets/stylesheets/childcare-a2e2a7ae2f0daf505cc749c8edfab20d.css' type='text/css' rel='stylesheet' media='all'>
+<link href='/harpurs/assets/stylesheets/contact-5dcf6719dff2cd15ae08bc0aed29a5b3.css' type='text/css' rel='stylesheet' media='all'>    
 <script src='/harpurs/assets/javascripts/jquery.min-8fc25e27d42774aeae6edbc0a18b72aa.js'></script>
+<script src='/harpurs/assets/javascripts/bootstrap.min-ba847811448ef90d98d272aeccef2a95.js'></script>
 <script src='/harpurs/assets/javascripts/harpurs/dom-interactions-10a211b057ea099009665e3b1942776f.js'></script>
 <script src='/harpurs/assets/javascripts/harpurs/rainbow-text-8425ff592670e19c28b8eabbf7c1057f.js'></script>
-<script src='/harpurs/assets/javascripts/harpurs/sticky-nav-82cfcceff077a01dba3e877103dec42a.js'></script>    
+<script src='/harpurs/assets/javascripts/harpurs/sticky-nav-82cfcceff077a01dba3e877103dec42a.js'></script>
+<script src='/harpurs/assets/javascripts/harpurs/activate-parent-24c4aedb3a54978a7f583789d7134792.js'></script>    
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-    </link>
-    <link rel="shortcut icon" href="/harpurs/assets/media/favicon.ico">
-    </link>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="/harpurs/assets/media/favicon.ico"700>
     
     <!-- Le fav and touch icons -->
     <!-- Update these with your own images
@@ -39,76 +40,211 @@
     
   </head>
   <body>
-      <div id="page-header">
-        <div class="container-narrow">
-          <a class="brand" href="/harpurs/">
-            <img src="/harpurs/assets/media/sun.png">
-            <div id="brand-text" class="rainbow">Harpurs Hill</div>
-            <div id="brand-tag">Children &amp; Family Centre Ltd</div>
-          </a>
-        </div>
-      </div>
-      
-      <nav class="navbar" role="navigation">
-          <div class="container-narrow">
-            <ul class="nav navbar-nav">
-      	  
-      	    <li><a href="/harpurs/about">About us</a></li>
-      	  
-      	  
-      	    <li><a href="/harpurs/aims">Aims</a></li>
-      	  
-      	  
-      	    <li><a href="/harpurs/childcare">Childcare</a></li>
-      	  
-      	  
-      	    <li><a href="/harpurs/families">Families</a></li>
-      	  
-      	  
-      	    <li><a href="/harpurs/groups">Groups</a></li>
-      	  
-      	  
-      	    <li><a href="/harpurs/contact">Contact us</a></li>
-      	  
-            </ul>
-          </div>
-      </nav>
-      
-    
+    <div id="page-header">
       <div class="container-narrow">
+        <a class="brand" href="/harpurs/">
+          <img src="/harpurs/assets/media/sun.png">
+          <div id="brand-text" class="rainbow">Harpurs Hill</div>
+          <div id="brand-tag">Children &amp; Family Centre Ltd</div>
+        </a>
+      </div>
+    </div>
     
-       <div class="content ">
-        <div class="row-fluid">
+    <nav class="navbar" role="navigation">
+        <div class="container-narrow">
+          <ul class="nav navbar-nav">
+    	  
+    	    <li><a href="/harpurs/about">About us</a></li>
+    	  
+    	  
+    	    <li><a href="/harpurs/aims">Aims</a></li>
+    	  
+          <li class="dropdown">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown">Childcare <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                  
+                    <li><a href="/harpurs/childcare">Overview</a></li>
+                  
+                  
+                    <li><a href="/harpurs/childcare/creche">Sunshine Creche</a></li>
+                  
+                  
+                    <li><a href="/harpurs/childcare/little-rays">Little Rays</a></li>
+                  
+                  
+                    <li><a href="/harpurs/childcare/playgroup">Sunshine Playgroup</a></li>
+                  
+            </ul>
+          </li>
+          <li class="dropdown">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown">Families <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                  
+                    <li><a href="/harpurs/families">Overview</a></li>
+                  
+                  
+                    <li><a href="/harpurs/families/one-to-ones">One to one</a></li>
+                  
+                  
+                    <li><a href="/harpurs/families/programmes">Programmes</a></li>
+                  
+            </ul>
+          </li>
+    	  
+    	    <li><a href="/harpurs/groups">Groups</a></li>
+    	  
+    	  
+    	    <li><a href="/harpurs/contact">Contact us</a></li>
+    	  
+       </ul>
+        </div>
+    </nav>
+    
+    
+    <div class="container-narrow">
+    
+    	<div class="content ">
+    		<div class="row-fluid">
   <div class="span12">
       <div class="pages">
-        <h3 class="title"><a href="/harpurs/groups">Groups</a> <span class="date">2014-02-15</span></h3>
+        <h3 class="title"><a href="/harpurs/families/one-to-ones">One to one</a> <span class="date">2014-06-21</span></h3>
 
-        <div class="summary ellipsis">
-<h1 id="toc_0">Group Support</h1>
+        <div class="summary">
+<h1 id="toc_0">One to one</h1>
 
-<h2 id="toc_1">Tuesday Group</h2>
+<p>We currently connect with families who have children under 4 years of age through regular visits to the home.  We believe it is important that parents should be able to access this type of support in their own home and our Family Support Workers spend time getting to know the parent through listening, befriending, guiding and signposting to services relevant to the family.</p>
 
-<p>This group is for parents of children with additional needs.  It aims to provide a listening ear and help direct parents or carers to sources of relevant information as well as being a friendly, caring and supportive environment.  </p>
+<p>Through key contact visits we deliver a <a href="http://www.colerainesurestart.org.uk">Sure Start</a> programme to all babies born in the Coleraine Sure Start catchment area. All families receive various items through a series of planned visits until the child has reached the age of four. During this period any family, if they wish, may avail of our regular monthly support service. These regular monthly support visits continue as long as a parent wishes until the child reaches age 4 or if the family move out of the Coleraine Sure Start catchment area.</p>
 
-<p>The Tuesday Group at Harpurs Hill Children and Family Centre runs every Tuesday, during term time from 10.00am to 11.30am.  </p>
-
-<p>Come along and join other parents at our additional needs group.  Have a cup of tea, a chat and a laugh with staff and parents in a relaxed setting.  </p>
-
-<p>No matter who we are, there are times when it’s good to talk!  </p>
-
-<p>For more information contact Margaret or Pauline on 028 703 21620.  </p>
-
-<h2 id="toc_2">Women’s Group</h2>
-
-<p>The Women’s Group aims to support women as parents to discuss relevant issues in a safe environment.  </p>
-
-<p>The Women’s Group at Harpurs Hill Community Centre runs every Wednesday, during term time from 10.00am – 12.00.  </p>
-
-<p>Got some time on your hands?  Come along and join us... meet other mums, have a chat over a cuppa, try new activities and workshops.  What about my kids?  We offer a creche service for children aged 0 – 4 years.  </p>
+<p>For further information on our Family Support Service, contact Gretta on 028 7032 1620.</p>
 </div>
 
         <div class="more">
-          <a href="/harpurs/groups" class="btn btn-small">read more..</a>
+          <a href="/harpurs/families/one-to-ones" class="btn btn-small">read more..</a>
+        </div>
+      </div>
+      <div class="pages">
+        <h3 class="title"><a href="/harpurs/families">Overview</a> <span class="date">2014-02-15</span></h3>
+
+        <div class="summary">
+<h1 id="toc_0">Family Services</h1>
+
+<p>The Family Support Team within Harpurs Hill Children and Family Centre recognise  that being a parent is one of the hardest roles a person will ever undertake.  We understand that for some families friendly support and advice can make all the difference. We support parents and families on a <a href="/families/one-to-ones">one-to-one</a> basis in their own homes, or in <a href="/groups">groups</a> or through <a href="/families/programmes">programmes</a> and can provide access to more specialist help and support should they or their children need it.  We currently deliver our Family Support Service on behalf of the <a href="http://www.colerainesurestart.org.uk">Coleraine Sure Start Partnership</a>.</p>
+
+<ul>
+<li>For further information on our family support service, contact Gretta on 028 7032 1620.<br>
+</li>
+<li>Click <a href="http://www.colerainesurestart.org.uk">here</a> to link with Coleraine Sure Start Partnerships website.<br>
+</li>
+</ul>
+</div>
+
+        <div class="more">
+          <a href="/harpurs/families" class="btn btn-small">read more..</a>
+        </div>
+      </div>
+      <div class="pages">
+        <h3 class="title"><a href="/harpurs/childcare">Overview</a> <span class="date">2014-02-15</span></h3>
+
+        <div class="summary ellipsis">
+<h1 id="toc_0">Childcare Services</h1>
+
+<p><span id="childcare">
+It is the aim of the childcare services within Harpurs Hill Children and Family Centre to provide a quality service where you and your child will feel welcomed and valued within safe and secure environment.  We provide a variety of activities for various ages and stages of development, where children can develop and grow under to guidance of a professional, caring and fully qualified staff team.  </span></p>
+
+<ul>
+<li>
+<h2>Birth to 1 year olds</h2>
+
+<ul>
+<li>
+<a href="childcare/creche">Sunshine Creche</a><br>
+Monday &amp; Tuesday<br>
+1pm to 3pm</li>
+</ul>
+</li>
+<li>
+<h2>1 to 2 years olds</h2>
+
+<ul>
+<li>
+<a href="childcare/creche">Sunshine Creche</a><br>
+Wednesday &amp; Thursday<br>
+1pm to 3pm</li>
+</ul>
+</li>
+<li>
+<h2>2 to 3 year olds</h2>
+
+<ul>
+<li>
+<a href="childcare/little-rays">Little Rays – Sure Start Two to Three Year Old Development Programme</a><br>
+Monday - Thursday<br>
+Session 1: 9.15am to 11.15am<br>
+Session 2: 12.15pm - 2.15pm<br>
+</li>
+</ul>
+</li>
+<li>
+<h2>3 year olds and older</h2>
+
+<ul>
+<li>
+<a href="childcare/playgroup">Sunshine Playgroup</a><br>
+Monday to Friday<br>
+9:15am to 11:45am</li>
+</ul>
+</li>
+</ul>
+</div>
+
+        <div class="more">
+          <a href="/harpurs/childcare" class="btn btn-small">read more..</a>
+        </div>
+      </div>
+      <div class="pages">
+        <h3 class="title"><a href="/harpurs/families/programmes">Programmes</a> <span class="date">2014-06-21</span></h3>
+
+        <div class="summary">
+<h1 id="toc_0">Programmes</h1>
+
+<p>In partnership with <a href="http://www.colerainesurestart.org.uk">Coleraine Sure Start Partnership</a>, we offer a range of programmes.  There is something to suit everyone in those early years.  We offer Infant Massage, Toddler Yoga, Baby Swim, Cook-It and parenting programmes such as Incredible Years and Nurturing.  </p>
+</div>
+
+        <div class="more">
+          <a href="/harpurs/families/programmes" class="btn btn-small">read more..</a>
+        </div>
+      </div>
+      <div class="pages">
+        <h3 class="title"><a href="/harpurs/childcare/creche">Sunshine Creche</a> <span class="date">2014-02-15</span></h3>
+
+        <div class="summary">
+<h1 id="toc_0">Sunshine Creche</h1>
+
+<p>Our creche is a great stepping stone for children progressing onto other types of childcare services.  The creche gives the children the opportunity to play and interact with other children their own age and helps build confidence and socialising skills.  </p>
+
+<table id="creche-sessions">
+<tr>
+<th>Sessions</th>
+        <td>Monday &amp; Tuesday</td>
+        <td>Wednesday &amp; Thursday</td>
+    </tr>
+<tr>
+<th>Times</th>
+        <td>1pm to 3pm</td>
+        <td>1pm to 3pm</td>
+    </tr>
+<tr>
+<th>Age</th>
+        <td>Birth to 1 year</td>
+        <td>1 to 2 years</td>
+    </tr>
+</table>
+<p>Contact Karen on 028 7032 1620</p>
+</div>
+
+        <div class="more">
+          <a href="/harpurs/childcare/creche" class="btn btn-small">read more..</a>
         </div>
       </div>
     
@@ -116,62 +252,63 @@
       <ul>
           <li><a href="/harpurs/pages/index/1">1</a></li>
           <li class="active"><a href="/harpurs/pages/index/2">2</a></li>
+          <li><a href="/harpurs/pages/index/3">3</a></li>
       </ul>
     </div>
   </div>
 </div>
 
-       </div>
+    	</div>
     
-      </div> <!-- /container -->
+    </div> <!-- /container -->
     
-      <div class="footer">
-        <div class="container-narrow stuff">
-        <div class="footer-image">
-          <img src="/harpurs/assets/media/home-kids.png"></img>
+    <div class="footer">
+      <div class="container-narrow stuff">
+      <div class="footer-image">
+        <img src="/harpurs/assets/media/home-kids.png"></img>
+      </div>
+        <div class="row">
+          <div class="col-md-12 strapline">
+    	Nurturing Children......Strengthening Families......Growing Community
+          </div>
         </div>
-          <div class="row">
-            <div class="col-md-12 strapline">
-      	Nurturing Children......Strengthening Families......Growing Community
-            </div>
+        <div class="row">
+          <div class="col-xs-7">
+    	<div class="contact">
+    	  <div class="address">
+    	    Cultrath Corner<br>
+    	    Cuilrath Street<br>
+    	    Coleraine<br>
+    	    BT52 2ER
+    	  </div>
+    
+    	  <div class="email">
+    	    info@harpurshillcfc.co.uk
+    	  </div>
+    
+    	  <div class="telephone">
+    	    028 7032 1620
+    	  </div>
+    	</div>
           </div>
-          <div class="row">
-            <div class="col-md-7">
-      	<div class="contact">
-      	  <div class="address">
-      	    Cultrath Corner<br>
-      	    Cuilrath Street<br>
-      	    Coleraine<br>
-      	    BT52 2ER
-      	  </div>
-      
-      	  <div class="email">
-      	    info@harpurshillcfc.co.uk
-      	  </div>
-      
-      	  <div class="telephone">
-      	    028 7032 1620
-      	  </div>
-      	</div>
-            </div>
-            <div class="col-md-offset-1 col-md-4">
-      	<div class="surestart">
-      	  In association with:
-      	  <img src="/harpurs/assets/media/surestart.png">
-      	</div>
-            </div>
+          <div class="col-xs-offset-1 col-xs-4">
+    	<div class="surestart">
+    	  In association with:
+    	  <img src="/harpurs/assets/media/surestart.png">
+    	</div>
           </div>
-          <div class="row">
-            <div class="legal-status col-md-12">
-      	A charity registered with the Inland Revenue. Registration No:
-      	XR2217 Registration Number: N.I. 38516 
-            </div>
+        </div>
+        <div class="row">
+          <div class="legal-status col-md-12">
+    	A charity registered with the Inland Revenue. Registration No:
+    	XR2217 Registration Number: N.I. 38516 
           </div>
         </div>
       </div>
-      
+    </div>
     
-      <!-- Google Prettify -->
+    
+    <!-- Google Prettify -->
 <script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
 <script>
   var pres = document.getElementsByTagName("pre");
@@ -181,7 +318,7 @@
   prettyPrint();
 </script>
 <!-- end Google Prettify -->
-      
+    
     
   </body>
 </html>
