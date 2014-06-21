@@ -6,6 +6,11 @@
     padding-left: 0px;
 }
 
-.childcare\.md h3 > a {
-    color: rgb(30,176,236);
+.childcare\.md a {
+    font-size: 30px;
+    text-decoration: underline:
+}
+
+.childcare\.md h2 {
+    font-size: 40px;
 }

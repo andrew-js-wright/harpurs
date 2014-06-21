@@ -23,7 +23,7 @@ Harpurs Hill Children and Family Centre Ltd is a non-profit making, charitable o
 <b>Supported by</b>
 </div>
 
-- SureStart Coleraine
+- Coleraine SureStart Partnership 
 - Northern Health & Social Care Trust
 - Department of Education & Early Years Organisation
 - Northern Childcare Partnership
