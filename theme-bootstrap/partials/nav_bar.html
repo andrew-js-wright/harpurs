@@ -11,9 +11,28 @@
 <nav class="navbar" role="navigation">
     <div class="container-narrow">
       <ul class="nav navbar-nav">
-	{{# data.navigation?to_pages }}
+	{{# data.navigation1?to_pages }}
 	  {{> pages_list }}
-	{{/ data.navigation?to_pages }}
-      </ul>
+	{{/ data.navigation1?to_pages }}
+      <li class="dropdown">
+      <a href="" class="dropdown-toggle" data-toggle="dropdown">Childcare <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            {{# data.childcarelinks?to_pages }}
+              {{> pages_list }}
+            {{/ data.childcarelinks?to_pages }}
+        </ul>
+      </li>
+      <li class="dropdown">
+      <a href="" class="dropdown-toggle" data-toggle="dropdown">Families <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            {{# data.familylinks?to_pages }}
+              {{> pages_list }}
+            {{/ data.familylinks?to_pages }}
+        </ul>
+      </li>
+    	{{# data.navigation2?to_pages }}
+	  {{> pages_list }}
+	{{/ data.navigation2?to_pages }}
+   </ul>
     </div>
 </nav>

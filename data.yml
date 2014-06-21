@@ -8,10 +8,21 @@ author :
   twitter : username
   feedburner : feedname
 
-navigation :
+navigation1 :
   - about.md
   - aims.md
+
+childcarelinks:
   - childcare.md
+  - childcare/creche.md
+  - childcare/little-rays.md
+  - childcare/playgroup.md
+
+familylinks:
   - families.md
+  - families/one-to-ones.md
+  - families/programmes.md
+
+navigation2 :
   - groups.md
   - contact.md
