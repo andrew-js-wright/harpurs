@@ -3,7 +3,7 @@ title: 'About us'
 date: '2014-02-15'
 layout: 'default'
 ---
-#About us
+#About Us
 
 The Project was established in 1993 to address low levels of preparedness for school.
 It takes a holistic approach combining community development with delivering 
@@ -20,8 +20,8 @@ The Project is managed by a Board representing a range of stakeholders and is a 
 Harpurs Hill Children and Family Centre Ltd is a non-profit making, charitable organisation reliant on funding to deliver its services to the community.
 </p>
 
-<b>Supported by</b>
 </div>
+##Supported by
 
 - Coleraine SureStart Partnership 
 - Northern Health & Social Care Trust

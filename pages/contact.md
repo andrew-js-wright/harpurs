@@ -17,7 +17,7 @@ BT56 2ER</br>
 <div class="col-sm-6">
 Tel: 028 7032 1620</br>
 Fax: 028 7032 1947</br>
-Email: info@harpurshillcfc.co.uk
+Email: <a href="mailto:info@harpurshillcfc.co.uk">info@harpurshillcfc.co.uk</a>
 </div>
 </div>
 <div class="row">

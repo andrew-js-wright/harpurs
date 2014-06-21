@@ -37,6 +37,10 @@ td, th {
 	padding: 5px 0px;
 }
 
+ul {
+    margin: 28px 0px;
+}
+
 .brand, .navbar, .footer {
 	font-family: 'Varela Round', sans-serif;
 }
