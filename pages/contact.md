@@ -13,7 +13,6 @@ Cuilrath Street
 Coleraine  
 BT56 2ER  
 </div>
-
 <div class="col-sm-6">
 Tel: 028 7032 1620  
 Fax: 028 7032 1947  
@@ -25,9 +24,7 @@ Email: <a href="mailto:info@harpurshillcfc.co.uk">info@harpurshillcfc.co.uk</a>
 <div id="map-canvas"></div>
 </div>
 </div>
-</div>
 ##Other Locations
-
 ###Sure Start Family Support Offices
 <div class="row">
 <div class="col-sm-6 address">
@@ -37,7 +34,6 @@ Coleraine <br/>
 BT52 2QA <br/> 
 Tel: 028 7035 5122
 </div>
-
 <div class="col-sm-6 address">
 <b>West Bann</b><br/>
 8 Killowen Court<br/>
