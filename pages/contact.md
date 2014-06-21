@@ -8,15 +8,15 @@ layout: 'contact'
 ##Harpurs Hill Children & Family Centre Ltd
 <div class="row">
 <div class="col-sm-6 address">
-Cuilrath Corner</br>  
-Cuilrath Street</br> 
-Coleraine</br>
-BT56 2ER</br>
+Cuilrath Corner  
+Cuilrath Street  
+Coleraine  
+BT56 2ER  
 </div>
 
 <div class="col-sm-6">
-Tel: 028 7032 1620</br>
-Fax: 028 7032 1947</br>
+Tel: 028 7032 1620  
+Fax: 028 7032 1947  
 Email: <a href="mailto:info@harpurshillcfc.co.uk">info@harpurshillcfc.co.uk</a>
 </div>
 </div>
