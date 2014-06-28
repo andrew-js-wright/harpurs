@@ -1,0 +1,29 @@
+.navbar-harpurs .navbar-brand.navbar-toggle {
+    border-color: none;
+    border-color: transparent;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 0px;
+}
+.navbar-harpurs .navbar-toggle {
+    border-color: #ddd;
+}
+
+.navbar-harpurs .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-harpurs .navbar-brand {
+    padding: 0px;
+    padding-left: 15px;
+    padding-top: 10px;
+    height: 0px;
+    color: white;
+}
+
+.navbar-harpurs .navbar-toggle {
+    padding: 5px 6px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}

@@ -1,38 +1,50 @@
 <div id="page-header">
-  <div class="container-narrow">
-    <a class="brand" href="{{urls.base_path}}">
-      <img alt="harpurs hill logo" src="{{urls.media}}/sun.png">
-      <div id="brand-text" class="rainbow">{{ data.title }}</div>
-      <div id="brand-tag">{{ data.tagline }}</div>
-    </a>
-  </div>
-</div>
-
-<div class="navbar" role="navigation">
     <div class="container-narrow">
-      <ul class="nav navbar-nav">
-	{{# data.navigation1?to_pages }}
-	  {{> pages_list }}
-	{{/ data.navigation1?to_pages }}
-      <li class="dropdown">
-      <a href="" class="dropdown-toggle" data-toggle="dropdown">Childcare <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-            {{# data.childcarelinks?to_pages }}
-              {{> pages_list }}
-            {{/ data.childcarelinks?to_pages }}
-        </ul>
-      </li>
-      <li class="dropdown">
-      <a href="" class="dropdown-toggle" data-toggle="dropdown">Families <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-            {{# data.familylinks?to_pages }}
-              {{> pages_list }}
-            {{/ data.familylinks?to_pages }}
-        </ul>
-      </li>
-    	{{# data.navigation2?to_pages }}
-	  {{> pages_list }}
-	{{/ data.navigation2?to_pages }}
-   </ul>
+        <a class="brand" href="{{urls.base_path}}">
+            <img alt="harpurs hill logo" src="{{urls.media}}/sun.png">
+            <div id="brand-text" class="rainbow">{{ data.title }}</div>
+            <div id="brand-tag">{{ data.tagline }}</div>
+        </a>
     </div>
 </div>
+
+<nav class="navbar navbar-harpurs" role="navigation">
+<div class="container-fluid">
+    <div class="navbar-header">
+        <!-- When collapsed this is what the mobile user will see -->
+        <div class="navbar-brand navbar-toggle">Navigation</div>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-links">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="nav-links">
+        <ul class="nav navbar-nav">
+            {{# data.navigation1?to_pages }}
+            {{> pages_list }}
+            {{/ data.navigation1?to_pages }}
+            <li class="dropdown">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">Childcare <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                {{# data.childcarelinks?to_pages }}
+                {{> pages_list }}
+                {{/ data.childcarelinks?to_pages }}
+            </ul>
+            </li>
+            <li class="dropdown">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">Families <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                {{# data.familylinks?to_pages }}
+                {{> pages_list }}
+                {{/ data.familylinks?to_pages }}
+            </ul>
+            </li>
+            {{# data.navigation2?to_pages }}
+            {{> pages_list }}
+            {{/ data.navigation2?to_pages }}
+        </ul>
+    </div>
+</div>
+</nav>
