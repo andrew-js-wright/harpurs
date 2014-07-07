@@ -1,6 +1,5 @@
 function getContentFromFirstContainer(matchClass) {
     var elems = document.getElementsByTagName('*'), i;
-    debugger;
     for (i in elems) {
         if((' ' + elems[i].className + ' ').indexOf(' ' + matchClass + ' ')
                 > -1) {

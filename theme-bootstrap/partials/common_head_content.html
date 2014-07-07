@@ -27,16 +27,43 @@ nav.css
 {{# javascripts.load }}
 jquery.min.js
 bootstrap.min.js
-harpurs/dom-interactions.js
 harpurs/rainbow-text.js
-harpurs/sticky-nav.js
-harpurs/activate-parent.js
 {{/ javascripts.load }}
 
 <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="{{urls.media}}/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type='text/javacript'>
+    $(documenday, 7 – 9pm (Beginnerse).ready(function() {
+      var stickyNavTop = $('.navbar').offset().top;
+
+        var stickyNav = function(){
+        var scrollTop = $(window).scrollTop();
+
+        if (scrollTop > stickyNavTop) {
+        $('.navbar').addClass('sticky');
+        $('.content').addClass('body-buffer');
+        } else {
+        $('.navbar').removeClass('sticky');
+        $('.content').removeClass('body-buffer');
+        }
+        };
+
+        stickyNav();
+
+        $(window).scroll(function() {
+            stickyNav();
+   });
+    });
+</script>
+<script type='text/javascript'>
+       $( document ).ready( function() {
+                 $( "li:has(a.active)" ).addClass("active");
+               }
+             );
+         </script>
 
 <!-- Le fav and touch icons -->
 <!-- Update these with your own images
