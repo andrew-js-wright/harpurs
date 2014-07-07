@@ -24,14 +24,41 @@
 <link href='/harpurs/assets/stylesheets/nav-d513e0a211ba13759cee92e4d774c0e5.css' type='text/css' rel='stylesheet' media='all'>    
 <script src='/harpurs/assets/javascripts/jquery.min-8fc25e27d42774aeae6edbc0a18b72aa.js'></script>
 <script src='/harpurs/assets/javascripts/bootstrap.min-ba847811448ef90d98d272aeccef2a95.js'></script>
-<script src='/harpurs/assets/javascripts/harpurs/dom-interactions-10a211b057ea099009665e3b1942776f.js'></script>
-<script src='/harpurs/assets/javascripts/harpurs/rainbow-text-8425ff592670e19c28b8eabbf7c1057f.js'></script>
-<script src='/harpurs/assets/javascripts/harpurs/sticky-nav-82cfcceff077a01dba3e877103dec42a.js'></script>
-<script src='/harpurs/assets/javascripts/harpurs/activate-parent-24c4aedb3a54978a7f583789d7134792.js'></script>    
+<script src='/harpurs/assets/javascripts/harpurs/rainbow-text-8425ff592670e19c28b8eabbf7c1057f.js'></script>    
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="/harpurs/assets/media/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script type='text/javacript'>
+        $(documenday, 7 – 9pm (Beginnerse).ready(function() {
+          var stickyNavTop = $('.navbar').offset().top;
+    
+            var stickyNav = function(){
+            var scrollTop = $(window).scrollTop();
+    
+            if (scrollTop > stickyNavTop) {
+            $('.navbar').addClass('sticky');
+            $('.content').addClass('body-buffer');
+            } else {
+            $('.navbar').removeClass('sticky');
+            $('.content').removeClass('body-buffer');
+            }
+            };
+    
+            stickyNav();
+    
+            $(window).scroll(function() {
+                stickyNav();
+       });
+        });
+    </script>
+    <script type='text/javascript'>
+           $( document ).ready( function() {
+                     $( "li:has(a.active)" ).addClass("active");
+                   }
+                 );
+             </script>
     
     <!-- Le fav and touch icons -->
     <!-- Update these with your own images
