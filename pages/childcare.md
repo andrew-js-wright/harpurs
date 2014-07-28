@@ -5,7 +5,7 @@ layout: 'default'
 ---
 #Childcare Services#
 <span id="childcare">
-It is the aim of the childcare services within Harpurs Hill Children and Family Centre to provide a quality service where you and your child will feel welcomed and valued within safe and secure environment.  We provide a variety of activities for various ages and stages of development, where children can develop and grow under to guidance of a professional, caring and fully qualified staff team.  
+It is the aim of the childcare services within Harpurs Hill Children and Family Centre to provide a quality service where you and your child will feel welcomed and valued within a safe and secure environment.  We provide a variety of activities for various ages and stages of development, where children can develop and grow under the guidance of a professional, caring and fully qualified staff team.  
 
 - <h2>Birth to 1 year olds</h2>
     - [Sunshine Creche]({{urls.base_url}}childcare/creche)  

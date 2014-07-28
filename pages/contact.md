@@ -28,14 +28,14 @@ Email: info@harpurshillcfc.co.uk
 ###Sure Start Family Support Offices
 <span class="row">
 <span class="col-sm-6 address">
-<b>Ballysally</b><br/>
+<b>Ballysally Youth and Community Centre</b><br/>
 Ballysally Road <br/>
 Coleraine <br/>
 BT52 2QA <br/> 
 Tel: 028 7035 5122
 </span>
 <span class="col-sm-6 address">
-<b>West Bann</b><br/>
+<b>West Bann Development Group</b><br/>
 8 Killowen Court<br/>
 Coleraine<br/>
 BT51 3TP<br/>
