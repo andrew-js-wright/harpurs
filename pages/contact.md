@@ -42,3 +42,12 @@ BT51 3TP<br/>
 Tel: 028 7034 3259
 </span>
 </span>
+<span class="row">
+<span class="col-sm-6 address">
+<b>Focus on Family</b><br/>
+11 Glenburn Crescent<br/>
+Coleraine<br/>
+BT52 2QR<br/> 
+Tel: 028 70329550
+</span>
+</span>
