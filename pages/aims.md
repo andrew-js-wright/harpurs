@@ -19,7 +19,7 @@ layout: 'default'
 <div class="box-rox path">
 <div class="row">
 <div class="col-md-12">
-<h2>Misson</h2>
+<h2>Mission</h2>
 </div>
 </div>
 <div class="row">
