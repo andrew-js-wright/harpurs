@@ -4,6 +4,4 @@
 "pages" :
   "permalink" : "/:relative_path/:filename"
 
-"production_url" : "http://www.andrew-wright.com/harpurs/"
-
 "base_path" : "/harpurs/"
