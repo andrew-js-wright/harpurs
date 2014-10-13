@@ -4,4 +4,4 @@
 "pages" :
   "permalink" : "/:relative_path/:filename"
 
-"base_path" : "/harpurs/"
+"base_path" : "/harpurs"
