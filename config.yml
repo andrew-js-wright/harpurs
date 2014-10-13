@@ -3,3 +3,5 @@
 
 "pages" :
   "permalink" : "/:relative_path/:filename"
+
+"production-url" : "/harpurs/"
