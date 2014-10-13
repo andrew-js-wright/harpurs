@@ -5,3 +5,5 @@
   "permalink" : "/:relative_path/:filename"
 
 "production-url" : "/harpurs/"
+
+"base_path" : "/harpurs"
