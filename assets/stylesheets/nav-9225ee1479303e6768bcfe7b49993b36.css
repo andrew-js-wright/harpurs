@@ -27,3 +27,8 @@
     margin-top: 7px;
     margin-bottom: 7px;
 }
+
+.navbar-harpus .navbar-toggle.collapsed {
+    text-align: center;
+    display: inherit;
+}
