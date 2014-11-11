@@ -28,7 +28,7 @@
     margin-bottom: 7px;
 }
 
-.navbar-harpus .navbar-collapse.collapse {
+.navbar-harpus .navbar-collapse.collapse > .nav{
     text-align: center;
     display: inherit;
 }
