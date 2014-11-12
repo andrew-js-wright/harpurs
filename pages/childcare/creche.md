@@ -19,7 +19,7 @@ Our creche is a great stepping stone for children progressing onto other types o
 	</tr>
 	<tr>
 		<th>Age</th>
-		<td>Birth to 1 year</td>
+		<td>Birth to 2 years</td>
 		<td>1 to 2 years</td>
 	</tr>
 </table>
