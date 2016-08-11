@@ -1,2 +1,2 @@
 source "https://rubygems.org"
-gem 'ruhoh', "~> 2"
+gem 'ruhoh', :git => "git@github.com:ruhoh/ruhoh.rb.git"

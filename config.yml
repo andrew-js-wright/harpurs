@@ -3,5 +3,14 @@
 
 "pages" :
   "permalink" : "/:relative_path/:filename"
+  "rss":
+    "enable": false
 
-"base_path" : "/harpurs"
+"assets":
+  "rss":
+    "enable": false
+
+"base_path" : ""
+
+"site":
+  "use" : "ignore"
