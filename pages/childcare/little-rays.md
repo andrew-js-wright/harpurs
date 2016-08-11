@@ -10,8 +10,8 @@ three year olds is an exciting programme where the emphasis is on play and
 creativity.  We offer a variety of opportunities not only to young children but 
 also to their parents and carers by actively involving them in the programme, 
 thus helping to create strong relationships within our Centre. For further 
-information please contact Linda Foote at Coleraine Sure Start Partnership on 
-028 70321032
+information please contact the Early Years Manager at Coleraine Sure Start 
+Partnership on 028 70321032
 
 Criteria for this programme is specifically targeted at two year olds living in 
 the [Coleraine Sure Start](http://www.colerainesurestart.org.uk) catchment area.

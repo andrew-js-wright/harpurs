@@ -19,9 +19,9 @@ It is the aim of the childcare services within Harpurs Hill Children and Family 
 
 - <h2>2 to 3 year olds</h2>
     - [Little Rays – Sure Start Two to Three Year Old Development Programme]({{urls.base_url}}little-rays)   
-    Monday - Thursday  
-	Session 1: 9.15am to 11.15am  
-	Session 2: 12.15pm - 2.15pm  
+    Monday - Wednesday  
+	Session 1: 9am to 11.30am  
+	Session 2: 12.15pm - 2.45pm  
 
 - <h2>3 year olds and older</h2>
     - [Sunshine Playgroup]({{urls.base_url}}playgroup)  
