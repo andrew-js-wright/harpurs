@@ -1,0 +1,12 @@
+.funders {
+  margin-bottom: 20em;
+}
+
+.funders > h1 {
+  margin-bottom: 1em;
+  font-size: 50px;
+}
+
+.funder-img {
+  width: 100%
+}
